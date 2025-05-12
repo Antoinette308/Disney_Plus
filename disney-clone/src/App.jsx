@@ -1,10 +1,20 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from "./components/Login";
+import Header from "./components/Header";
+import './App.css';
 
 function App() {
 
   return (
-    <h2>Hello. This is a Disney Plus clone 🚀</h2>
-  )
+    <div className="App">
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Login />}></Route>
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
-export default App
+export default App;
