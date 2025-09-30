@@ -14,7 +14,7 @@ A mobile responsive ReactJS Disney Plus clone.
 - Autoplay video viewers
 - Movie categories including: Recommended for you, New to Disney+, Originals and Trending
 
-https://github.com/user-attachments/assets/bbf41186-e5eb-4102-b187-9ab900ee2915
+https://github.com/user-attachments/assets/ed714fad-b525-4301-8faf-d7ebb2c73e5d
 
 ## Technologies
 - React
